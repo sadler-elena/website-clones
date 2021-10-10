@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+body,html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    color: #212529;
+    width: 100%;
+    height: 100%;
+}
+
+.page-wrapper {
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/676da95d-942e-414c-8534-f1832f0d4ced/bvlatuR/std/3296x1798/ms-homepage-desktop");
+    background-position: center top 55%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-flow: column;
+}
+
+.announcement-bar {
+    background-color: #ffffff;
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0rem;
+    padding: 1rem;
+    justify-content: center;
+    box-shadow: rgb(208, 209, 210) 0px 0px 1px 0px;
+}
+
+.text-link {
+    color: #393c41;
+    font-size: 0.875rem;
+    line-height: 1.31rem;
+    text-align: center;
+}
+
+.text-link:hover {
+    color: black;
+    font-weight: 500;
+}
+
+.navigation-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0rem;
+}
+
+.start-nav {
+    padding: 0rem 0rem 0rem 2rem;
+}
+
+.center-nav {
+    padding: 0rem 0.5rem;
+}
+
+.end-nav {
+    padding: 0rem 2rem 0rem 0rem;
+}
+
+
+.logo-link {
+    padding: 0rem 0.5rem 0rem 1rem;
+    display: block;
+}
+
+.logo {
+    width: 7.5rem;
+    height: 1.875rem;
+    box-sizing: border-box;
+}
+
+.nav-link {
+    margin: 0.25rem 0.5rem;
+    align-self: center;
+    color: #181b21;
+    font-size: 0.875rem;
+    line-height: 1.31rem;
+    text-underline-style: none;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.nav-link-wrapper {
+    padding: 0.25rem 0.5rem;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    transition-property: background-color;
+    transition-duration: 0.33s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.nav-link-wrapper:hover {
+    background-color: #5c5d6130;
+}
+
+.c-nav-links-list {
+    display: flex;
+    list-style: none;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.e-nav-links-list {
+    display: flex;
+    list-style: none;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+h1 {
+    color: #393c41;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    padding: 0.25rem 0rem 0.25rem 0rem;
+    margin: 0rem;
+}
+
+h2 {
+    font-size: 0.875rem;
+    line-height: 1.31rem;
+    color: #5c5d61;
+    font-weight: 400;
+    padding: 0rem 0rem 0.5rem 0rem;
+    margin: 0rem;
+}
+
+
+.hero-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-heading-content-wrapper {
+    margin-top: 5vh;
+    margin-bottom: 57vh;
+    text-align: center;
+}
+
+.double-button-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    gap: 0.5rem 2rem;
+
+}
+
+.button-primary {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding: 1rem 3.5rem;
+    font-size: 0.75rem;
+    line-height: 0.875rem;
+    border-radius: 2rem;
+    background-color: #171a20;
+    opacity: 90%;
+    border: none;
+    color: white;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+
+.button-secondary {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding: 1rem 3.5rem;
+    font-size: 0.75rem;
+    line-height: 0.875rem;
+    border-radius: 2rem;
+    background-color: white;
+    opacity: 90%;
+    border: none;
+    color: #171a20;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+.inner-link {
+    color: #5c5d61;
+}
+
+.inner-link:hover {
+    color: black;
+    font-weight: 500;
+}
+
+.bottom-button-wrapper {
+    align-self: center;
+    margin-top: 5vh;
+}
+.bottom-arrow {
+    width: 2rem;
+    height: 2rem;
+}
+
