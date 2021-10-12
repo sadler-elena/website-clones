@@ -4,3 +4,4 @@ Strengthening HTML/CSS/JS fundamentals through the art of cloning popular websit
 current list:
 
 1. Tesla
+2. NewScientist
