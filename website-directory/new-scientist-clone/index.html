@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NewScientist Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+<div class="page-container">
+<!--Page Contents, Wrapped with Padding-->
+    <div class="page-header page-padding">
+        <!--Newsletter Link, Branding, Subscription Button-->
+        <div class="newsletter-info">
+            <a class="newsletter-link" href="https://www.newscientist.com/sign-up/">
+                <h3 class="blue-text link-text">NEWSLETTERS</h3>
+            </a>
+                <p class="small-description light-grey-text">Sign up to read our regular email newsletters.</p>
+
+        </div>
+
+        <h1 class="big-display-h1 black-text weight-bold">NewScientist</h1>
+
+        <div class="button-wrapper">
+            <a class="primary-button white-text weight-medium" href="https://subscription.newscientist.com/packages/newscientist-2021-september?promCode=16521,16522&packageCodes=TAP&offerCode=12i,6M">
+                SUBSCRIBE AND SAVE 50%
+            </a>
+        </div>
+
+    </div>
+    <div class="navigation-bar-wrapper">
+        <div class="navigation-bar page-padding">
+            <!-- Horizontal Navigation Links, (Sticky)-->
+            <ul class="main-nav-links">
+                <li class="nav-link-wrapper"><a class="nav-link black-text" href="https://www.newscientist.com/sign-up/">News</a></li>
+                <li class="nav-link-wrapper"><a class="nav-link black-text" href="https://www.newscientist.com/sign-up/">Podcasts</a></li>
+                <li class="nav-link-wrapper"><a class="nav-link black-text" href="https://www.newscientist.com/sign-up/">Video</a></li>
+                <li class="nav-link-wrapper"><a class="nav-link black-text" href="https://www.newscientist.com/sign-up/">Technology</a></li>
+                <li class="nav-link-wrapper"><a class="nav-link black-text" href="https://www.newscientist.com/sign-up/">Space</a></li>
+                <li class="nav-link-wrapper"><a class="nav-link black-text" href="https://www.newscientist.com/sign-up/">Physics</a></li>
+                <li class="nav-link-wrapper"><a class="nav-link black-text" href="https://www.newscientist.com/sign-up/">Health</a></li>
+                <li class="nav-link-wrapper link-w-icon"><a class="nav-link black-text" href="https://www.newscientist.com/sign-up/">More</a><img class="small-icon" src="media/plus-icon.png"></li>
+                <li class="nav-link-wrapper"><a class="nav-link blue-text" href="https://www.newscientist.com/sign-up/">Shop</a></li>
+                <li class="nav-link-wrapper"><a class="nav-link blue-text" href="https://www.newscientist.com/sign-up/">Courses</a></li>
+                <li class="nav-link-wrapper"><a class="nav-link blue-text" href="https://www.newscientist.com/sign-up/">Events</a></li>
+                <li class="nav-link-wrapper"><a class="nav-link blue-text" href="https://www.newscientist.com/sign-up/">Tours</a></li>
+                <li class="nav-link-wrapper"><a class="nav-link blue-text" href="https://www.newscientist.com/sign-up/">Jobs</a></li>
+            </ul>
+
+            <ul class="user-function-links">
+                <li class="nav-link-wrapper link-w-icon"><a class="nav-link black-text" href="https://www.newscientist.com/sign-up/">Sign In</a><img class="small-icon" src="media/sign-in-icon.png"></li>
+                <li class="nav-link-wrapper link-w-icon"><a class="nav-link black-text" href="https://www.newscientist.com/sign-up/">Search</a><img class="small-icon" src="media/search-icon.png"></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="right-page-tabs page-padding">
+        <!--Links to Trending, Latest, Video, Free Articles. Categorized by Tabs (Sticky)-->
+
+        <!--Tab Links-->
+        <div class="tab-navigation-wrapper">
+            <button id="defaultOpen" class="tablinks" onclick="openCategory(event,'Trending')">TRENDING</button>
+            <button class="tablinks" onclick="openCategory(event, 'Latest')">LATEST</button>
+            <button class="tablinks" onclick="openCategory(event, 'Video')">VIDEO</button>
+            <button class="tablinks" onclick="openCategory(event,'Free')">FREE</button>
+        </div>
+
+        <!--Tab Content-->
+        <div id="Trending" class="tabcontent">
+            <div class="tab-content-grid">
+                <div class="tab-content-card">
+                    <div class="tab-content-card-text">Drug treatment for Lyme Disease could lead to its eradication.</div>
+                    <div class="tab-content-card-number">1</div>
+                </div>
+                <div class="tab-content-card">
+                    <div class="tab-content-card-text">UK National Grid in talks to build an energy island in the North Sea.</div>
+                    <div class="tab-content-card-number">2</div>
+                </div>
+                <div class="tab-content-card">
+                    <div class="tab-content-card-text">How Minecraft is helping children with autism make new friends.</div>
+                    <div class="tab-content-card-number">3</div>
+                </div>
+                <div class="tab-content-card">
+                    <div class="tab-content-card-text">Covid-19 news: Concern over critically ill unvaccinated pregnant women.</div>
+                    <div class="tab-content-card-number">4</div>
+                </div>
+            </div>
+        </div>
+        <div id="Latest" class="tabcontent">
+            <div class="tab-content-grid">
+                <div class="tab-content-card">
+                    <div class="tab-content-card-text">Drug treatment for Lyme Disease could lead to its eradication.</div>
+                    <div class="tab-content-card-number">1</div>
+                </div>
+                <div class="tab-content-card">
+                    <div class="tab-content-card-text">UK National Grid in talks to build an energy island in the North Sea.</div>
+                    <div class="tab-content-card-number">2</div>
+                </div>
+                <div class="tab-content-card">
+                    <div class="tab-content-card-text">How Minecraft is helping children with autism make new friends.</div>
+                    <div class="tab-content-card-number">3</div>
+                </div>
+            </div>
+        </div>
+        <div id="Video" class="tabcontent">
+            <div class="tab-content-grid">
+                <div class="tab-content-card">
+                    <div class="tab-content-card-text">Drug treatment for Lyme Disease could lead to its eradication.</div>
+                    <div class="tab-content-card-number">1</div>
+                </div>
+                <div class="tab-content-card">
+                    <div class="tab-content-card-text">UK National Grid in talks to build an energy island in the North Sea.</div>
+                    <div class="tab-content-card-number">2</div>
+                </div>
+                <div class="tab-content-card">
+                    <div class="tab-content-card-text">How Minecraft is helping children with autism make new friends.</div>
+                    <div class="tab-content-card-number">3</div>
+                </div>
+                <div class="tab-content-card">
+                    <div class="tab-content-card-text">Covid-19 news: Concern over critically ill unvaccinated pregnant women.</div>
+                    <div class="tab-content-card-number">4</div>
+                </div>
+            </div>
+        </div>
+        <div id="Free" class="tabcontent">
+            <div class="tab-content-grid">
+                <div class="tab-content-card">
+                    <div class="tab-content-card-text">Drug treatment for Lyme Disease could lead to its eradication.</div>
+                    <div class="tab-content-card-number">1</div>
+                </div>
+                <div class="tab-content-card">
+                    <div class="tab-content-card-text">UK National Grid in talks to build an energy island in the North Sea.</div>
+                    <div class="tab-content-card-number">2</div>
+                </div>
+                <div class="tab-content-card">
+                    <div class="tab-content-card-text">How Minecraft is helping children with autism make new friends.</div>
+                    <div class="tab-content-card-number">3</div>
+                </div>
+                <div class="tab-content-card">
+                    <div class="tab-content-card-text">Covid-19 news: Concern over critically ill unvaccinated pregnant women.</div>
+                    <div class="tab-content-card-number">4</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-wrapper page-padding">
+        <!--Basic Page Content: Headline, Social Sharing Links, Category/Date, Author, Image, Article-->
+        <div class="article-info">
+            <h1 class="article-title">Ancient lake in Mars’s Gale crater may have actually been a small pond.</h1>
+            <div class="article-social-bar">
+                <a href="www.twitter.com"><img class="social-icon" src="media/twitter-icon.png"></a>
+                <a href="www.twitter.com"><img class="social-icon" src="media/facebook-icon.png"></a>
+                <a href="www.twitter.com"><img class="social-icon" src="media/send-message-icon.png"></a>
+            </div>
+            <div class="article-meta-data">
+                <div class="article-category-and-date"><p><span class="weight-medium">SPACE</span> <span class="weight-light light-grey-text">6 August 2021</span></p></div>
+                <div class="author-info"><p><span class="light-grey-text weight-light">By</span> <a href="https://www.newscientist.com/author/leah-crane/"><span class="link-text blue-text weight-medium">Leah Crane</span></a></p></div>
+            </div>
+
+        </div>
+        <div class="article-img-wrapper">
+            <img src="https://images.newscientist.com/wp-content/uploads/2021/08/06171920/06-aug_mars-sediments.jpg?width=778">
+            <p class="img-caption light-grey-text weight-light">NASA/JPL-Caltech/University of Arizona.</p>
+        </div>
+
+        <div class="article-text-content">
+            <p>A purported ancient lake on Mars may have been far smaller than researchers thought. NASA’s Curiosity rover has been exploring Gale crater for more than eight years, and while early observations suggested the entire crater may once have been filled with water, a new analysis implies that it just had a series of ponds instead.</p>
+            <p>Previous analyses of data from Curiosity have relied heavily on a measure called the chemical index of alteration to determine how rocks were weathered over time. Joseph Michalski at the University of Hong Kong and his colleagues have suggested that because this measure was developed for use on Earth, it may not be valid in the extreme Martian climate.</p>
+            <p>Instead, they analysed the concentrations of various compounds that are expected to change based on different types of weathering over time. They found that some of the layers of rock Curiosity examined did interact with water at some point in their past, but more are likely to have formed outside of the water.</p>
+        </div>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
